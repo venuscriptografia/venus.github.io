@@ -1,0 +1,513 @@
+* {
+   margin: 0 auto;
+}
+header {
+	background-color: white;
+	height: 180px;
+	width: 100%;
+	margin-top: 0;
+	border-bottom: solid 1px blue;
+	margin-bottom: 0;
+}
+body {
+	background-color: blue;
+}
+footer {
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-size: .9em;
+	margin-bottom: auto;
+}
+hr {
+	border: 1px solid blue;
+}
+.conteudo_entre_em_contato {
+	background-color: white;
+	height: auto;
+	width: 80%;
+}
+.conteudo {
+	background-color: white;
+	height: auto;
+	width: 75%;
+	margin-bottom: 0;
+	border-right: solid 1px blue;
+	border-left: solid 1px blue;
+}
+.conteudo2 {
+	background-color: white;
+	height: 700px;
+	width: 75%;
+	margin-bottom: 0;
+	border-right: solid 1px blue;
+	border-left: solid 1px blue;
+}
+.conteudo3 {
+	background-color: white;
+	height: 600px;
+	width: 75%;
+	margin-bottom: -100;
+	border-right: solid 1px blue;
+	border-left: solid 1px blue;
+}
+/*BOTÕES INÍCIO*/
+.btn_contato a{
+	float: right;
+	text-decoration: none;
+	font-size: 1.5em;
+	border: solid 3px white;
+	border-radius: 10px;
+	color: white;
+	background-color: blue;
+	margin-top: -60px;
+	margin-right: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.btn_contato a:hover {
+	background-color: white;
+	color: blue;
+	border: solid 3px white;
+}
+.btn_contato1 a{
+	margin-left: 40%;
+	text-decoration: none;
+	font-size: 1.5em;
+	border: solid 3px white;
+	border-radius: 10px;
+	color: white !important;
+	background-color: blue;
+	margin-top: -60px;
+	margin-right: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.btn_contato1 a:hover {
+	background-color: white;
+	color: blue !important;
+	border: solid 3px blue;
+}
+.btn_contato2 a {
+	margin-left: 44%;
+	text-decoration: none;
+	font-size: 2em;
+	border: solid 3px white;
+	border-radius: 10px;
+	color: white !important;
+	background-color: blue;
+	margin-top: -60px;
+	margin-right: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.btn_contato2 a:hover {
+	background-color: white;
+	color: blue !important;
+	border: solid 3px blue;
+}
+.btn_contato3 a {
+	margin-left: 42%;
+	text-decoration: none;
+	font-size: 1em;
+	border: solid 3px white;
+	border-radius: 10px;
+	color: white;
+	background-color: blue;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.btn_contato3 a:hover {
+	background-color: white;
+	color: blue;
+	border: solid 3px blue;
+}
+.botao_voltar {
+	float: left;
+	margin-left: 30px;
+	margin-top: -20px;
+}
+.botao_voltar a{
+	text-decoration: none;
+	font-size: 1.4em;
+	border: solid 3px blue;
+	border-radius: 10px;
+	color: white;
+	background-color: blue;
+}
+.botao_voltar a:hover {
+	background-color: white;
+	border: solid 2px blue;
+	color: blue;
+}
+.botao1 {
+	text-align: center;
+}
+.botao1 a{
+	text-decoration: none;
+	font-size: 2em;
+	border: solid 3px blue;
+	border-radius: 10px;
+	color: white;
+	background-color: blue;
+	margin-top: 30px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.botao1 a:hover {
+	background-color: orange;
+	border: solid 3px orange;
+}
+.botao1_2 {
+	text-align: center;
+}
+.botao1_2 a{
+	text-decoration: none;
+	font-size: 2em;
+	border: solid 3px white;
+	border-radius: 10px;
+	color: white;
+	background-color: blue;
+	margin-top: 30px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.botao1_2 a:hover {
+	background-color: white;
+	border: solid 3px white;
+	color: blue};
+
+.botao2 {
+	text-align: center;
+}
+.botao2 a{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	font-size: 2em;
+	border: solid 3px blue;
+	border-radius: 10px;
+	color: white;
+	background-color: blue;
+	margin-top: 30px;
+}
+.botao2 a:hover {
+	background-color: orange;
+	border: solid 3px orange;
+}
+.botao3 {
+	text-align: center;
+}
+.botao3 a{
+	padding-left: 65px;
+	padding-right: 65px;
+	text-decoration: none;
+	font-size: 2em;
+	border: solid 3px blue;
+	border-radius: 10px;
+	color: white;
+	background-color: blue;
+	margin-top: 30px;
+}
+.botao3 a:hover {
+	background-color: orange;
+	border: solid 3px orange;
+}
+.botao4 {
+	text-align: center;
+}
+.botao4 a{
+	padding-left: 80px;
+	padding-right: 80px;
+	text-decoration: none;
+	font-size: 2em;
+	border: solid 3px blue;
+	border-radius: 10px;
+	color: white;
+	background-color: blue;
+	margin-top: 30px;
+}
+.botao4 a:hover {
+	background-color: orange;
+	border: solid 3px orange;
+}
+
+/*BOTÕS FIM*/
+
+/*ROTATIVO INÍCIO*/
+.fotos_do_rotativo img{
+	width:100%;
+	height: 100%;
+}
+.slide {
+	min-height: 350px;
+	position: relative;	
+}
+.slide_imagem {
+	position: absolute;
+	opacity: 0;
+	animation: animaSlide 10s infinite;
+}
+@keyframes animaSlide {
+	25% {
+		opacity: 1
+	}
+	75% {
+		opacity: 0
+	}
+}
+.slide_imagem:nth-child(0){
+	animation-delay: 3s
+}
+.slide_imagem:nth-child(1){
+	animation-delay: 6s
+}
+/*ROTATIVO FIM*/
+.logo_whatsapp_venus img{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-left: 28%;
+}
+.logo_qrcode img{
+	float: right;
+	width: 200px;
+	height: 200px;
+	margin-right: 28%;
+}
+.logo img{
+	float: left;
+	margin-top: 23px;
+	margin-left: 200px;
+}
+.texto1 {
+	font-size: 2em;
+	color: blue;
+	margin-left: 25%;
+	margin-top: 30px;
+}
+.texto2 {
+	font-size: 3em;
+	color: blue;
+	text-align: center;
+	margin-top: 10px;
+}
+.texto3 a{
+	font-size: 1.6em;
+	color: white;
+	margin-top: -20px;
+	padding-right: 90px;
+	padding-left: 90px;
+	border: solid 1px blue;
+	background-color: blue;
+
+}
+.texto3 {
+	text-align: center;
+}
+.texto4 {
+	font-size: 1.8em;
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.fig1 img {
+	margin-left: 33%;
+	margin-top: 30px;
+	border-radius: 0px 50%;
+	border: solid 3px blue;
+}
+.hamburger1 img{
+	border-radius: 50%;
+	border: solid 2px white;
+	position: fixed;
+	width: 40px;
+	height: 40px;	
+	float: right;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+nav#menuSm-1 ul {
+    margin-top: -100px;
+    margin-left: -20px;
+    position: fixed;
+    left: -100%;
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+    max-width: 320px;
+    background-color: blue;
+    overflow: hidden;
+    overflow-y: auto;
+}
+nav#menuSm-1 ul li a {
+    color: white;
+    font-size: 1em;
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    }
+    nav#menuSm-1 ul li {
+    position: relative;
+    list-style: none;
+    }
+       nav ul li a#cabecalho{
+        text-align: left;
+        color: aqua;
+        font-size: 1em;
+    }
+/*RESPONSIVO INÍCIO*/
+@media only screen and (max-width: 2500px) {
+.some1 {
+display: none;
+}
+}
+@media only screen and (max-width: 1500px) {
+.some1 {
+display: none;
+}
+}
+@media only screen and (max-width: 660px) {
+.aparece{
+  display: block;
+}
+}
+@media only screen and (max-width: 799px) {
+.aparece{
+  display: block;
+}
+}
+/*RESPONSIVO FIM*/
+
+/*MENU RETRATIL INÍCIO*/
+.hamburger1.menuAtivo {     
+    }
+/*MENU RETRATIL FIM*/
+.texto2a {
+	font-size: 2em;
+	color: blue;
+	text-align: center;
+	margin-top: 15px;
+}
+.texto2a2 {
+	font-size: 2em;
+	color: blue;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+.texto2a3 {
+	font-size: 1.6em;
+	color: blue;
+	margin-left: 30px;
+	margin-right: 15px;
+	margin-top: 25px;
+}
+.texto2a4 {
+	font-size: 1em;
+	color: blue;
+	margin-left: 30px;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+.texto2a5 {
+	text-align: center;
+	font-size: 1.6em;
+	color: blue;
+	margin-top: 25px;
+}
+.vem1 {
+	margin-left: 28%;
+	margin-top: 1%;
+	font-size: 2em;
+	color: blue;
+}
+.vem2 {
+	margin-left: 23%;
+	margin-top: -2%;
+	font-size: 1.8em;
+	color: blue;
+}
+.borda1 {
+	border: solid 5px white;
+	background-color: blue;
+	padding: 70px;
+}
+.borda2 {
+	text-align: justify;
+	border: solid 5px white;
+	background-color: blue;
+	padding: 70px;	
+	color: white;
+	font-size: 2em;
+}
+.uso a{
+	margin-top: 10px;
+	font-size: 2em;
+	color: white;
+	border: solid 1px blue;
+	background-color: blue;
+	padding-left:  80px;
+	padding-right: 80px;
+}
+.uso {
+	text-align: center;
+}
+.titulo {
+	text-align: center;
+	font-size: 1.8em;
+	color: blue;
+	margin-top: 10px;
+}
+.titulo_contato {
+	text-align: center;
+	font-size: 2em;
+	color: blue;
+}
+.subtitulo_contato {
+	text-align: center;
+	font-size: 1.5em;
+	color: blue;
+}
+.leia_com_atencao {
+	text-align: center;
+	font-size: 1em;
+	color: white;
+	margin-bottom: 30px;
+}
+.caminhoNavegador {
+	text-align: center;
+}
+.caminhoNavegador a{
+	text-decoration: none;
+	font-size: .7em;
+	border: solid 3px white;
+	border-radius: 10px;
+	color: white;
+	background-color: blue;
+	margin-top: 30px;
+}
+.caminhoNavegador a{
+	float: left;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+.caminhoNavegador a:hover {
+	background-color: white;
+	border: solid 3px blue;
+	color: blue;
+}
+.acesse a {
+	text-decoration: none;
+	font-size: 1em;
+	color: aqua;
+}
+
+
